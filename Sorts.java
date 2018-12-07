@@ -1,10 +1,10 @@
-public class SelectionSort{
+public class Sorts{
 
   public static void main(String[] args){
+    System.out.println("Selection Sort:");
     int[] a = {1,7,66,14,15,18,3,0,1};
     int[] b = {4,7,5,0,99,51,-7};
     int[] c = {124,3254,342,231,424,53};
-    int[] d = {-124,12,-11,432,0,434,32};
 
     printArray(a);
     System.out.println();
@@ -12,18 +12,17 @@ public class SelectionSort{
     System.out.println();
     printArray(c);
     System.out.println();
+
+    System.out.println("Bubble Sort:");
+    int[] d = {5,1,12,-5,16};
+    int[] e = {2,3,4,5,1};
+    int[] f = {6,1,2,3,4,5};
+
     printArray(d);
     System.out.println();
-
-    int[] e = {5,1,12,-5,16};
-    int[] f = {2,3,4,5,1};
-    int[] g = {6,1,2,3,4,5};
-
     printArray(e);
     System.out.println();
     printArray(f);
-    System.out.println();
-    printArray(g);
     System.out.println();
 
   }
